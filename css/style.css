@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+/* -------------- cabeçalho */
+
+.h1{
+	padding: 20px;
+	background: purple;
+}
+
+/* -------------- PNGS */
+
+.player-options img,
+.enemy-options img{
+	max-width: 145px;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+/* -------------- Divs */
+
+.player-options,
+.enemy-options{
+	width:50%;
+}
+
+.align{
+	display: flex;
+	text-align: center;
+}
