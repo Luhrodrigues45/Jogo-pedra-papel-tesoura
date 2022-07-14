@@ -1,6 +1,6 @@
-var elementos = document.querySelectorAll('.player-options div > img');
-var playerOpt = "";
-var inimigoOpt = "";
+let elementos = document.querySelectorAll('.player-options div > img');
+let playerOpt = "";
+let inimigoOpt = "";
 
 // ---------------- Validações para decidir de quem pertece a vitória, empate ou quem perdeu.
 
